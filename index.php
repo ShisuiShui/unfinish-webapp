@@ -92,8 +92,47 @@
         <title>Bank Transaction Form</title>
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="index.php">
+        <link rel="stylesheet" href="stylesheet.php">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f8f9fa;
+                padding: 20px;
+            }
 
+            .container {
+                max-width: 600px;
+                margin: 0 auto;
+                background-color: #fff;
+                border-radius: 8px;
+                padding: 30px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            h1, h2 {
+                text-align: center;
+            }
+
+            form {
+                margin-top: 30px;
+            }
+
+            .form-label {
+                font-weight: bold;
+            }
+
+            .form-control {
+                margin-bottom: 15px;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .balance-info {
+                margin-top: 20px;
+            }
+        </style>
     </head>
     <body>
     <div class="container">
